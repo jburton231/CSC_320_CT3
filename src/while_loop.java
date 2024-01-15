@@ -1,4 +1,6 @@
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class while_loop {
     public static void main(String[] args) {
@@ -9,21 +11,26 @@ public class while_loop {
             grades[i] = user_input.nextFloat();
         }
         float average = 0;
-        for (float j : grades) {
-            average = average + j;
+        float maximum = grades[grades.length-1];
+        float minimum = grades[0];
+        for (float i : grades){
+            average = average + i;
         }
-        float maximum = 0;
-        float current_maximum = 0;
-        for (float j : grades) {
-            if (j > maximum) {
-                maximum = j;
-            } else {
-                maximum = maximum;
+        average = average / grades.length;
+        // Bubble sort
+        for (int i = (grades.length - 1); i >=0; i-- ){
+            for (int j = 1; j<=i; j++){
+                if (grades[j-1] > grades[j]){
+                    float temp = grades[j];
+                    grades[j-1] = grades[j];
+                    grades[j] = temp;
+                }
             }
         }
-            average = average / grades.length;
 
-            System.out.println("Average is: " + average);
-            System.out.println("Maximum is: " + maximum);
-        }
+        System.out.println("Average is: " + average);
+        System.out.println("Maximum is: " + maximum);
+        System.out.println("Minimum is: " + minimum);
     }
+}
+
