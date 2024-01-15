@@ -1,8 +1,6 @@
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
-public class while_loop {
+public class loopmod4 {
     public static void main(String[] args) {
         float[] grades = new float[4];
         Scanner user_input = new Scanner(System.in);
