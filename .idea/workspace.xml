@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26403ad6-2f1c-414f-b988-9f9a2a4f4746" name="Changes" comment="&#10;Added bubble sort">
-      <change afterPath="$PROJECT_DIR$/src/getweeklytemps.java" afterDir="false" />
+    <list default="true" id="26403ad6-2f1c-414f-b988-9f9a2a4f4746" name="Changes" comment="created&#10;removed - continue not needed, boolean inLoop not needed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getweeklytemps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getweeklytemps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/loopmod4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopmod4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705280704905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created">
+      <created>1705764308553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705764308553</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +163,8 @@
     <MESSAGE value="Initial average and max&#10;Fixed maximum&#10;Added bubble sort&#10;Rename" />
     <MESSAGE value="Initial average and max&#10;Fixed maximum&#10;Added bubble sort" />
     <MESSAGE value="&#10;Added bubble sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Added bubble sort" />
+    <MESSAGE value="created" />
+    <MESSAGE value="created&#10;removed - continue not needed, boolean inLoop not needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="created&#10;removed - continue not needed, boolean inLoop not needed" />
   </component>
 </project>

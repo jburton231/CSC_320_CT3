@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class getweeklytemps {
     public static void main(String[] args){
+        // Declarations
         String[] weekdays = {"Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"};
+        //double type for accuracy
         double[] dailyTemps = new double[7];
         double sum = 0;
         Scanner display = new Scanner(System.in);
@@ -13,12 +15,14 @@ public class getweeklytemps {
             int userInput = display.nextInt();
             if (userInput == 1){
                 Scanner weeklyTemps = new Scanner(System.in);
+                //Data entry
                 for (int i = 0; i < weekdays.length; ++i){
                     System.out.println("Enter " + weekdays[i] + " " + "temp" );
                     dailyTemps[i] = weeklyTemps.nextDouble();
 
                 }
-            } else if (userInput == 2) {
+            }//check for data
+            else if (userInput == 2) {
                 if (dailyTemps[0] == 0){
                     System.out.println("Error array empty");
                 }else {
