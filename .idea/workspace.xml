@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26403ad6-2f1c-414f-b988-9f9a2a4f4746" name="Changes" comment="Initial average and max">
-      <change afterPath="$PROJECT_DIR$/src/while_loop.java" afterDir="false" />
+    <list default="true" id="26403ad6-2f1c-414f-b988-9f9a2a4f4746" name="Changes" comment="&#10;Added bubble sort">
+      <change afterPath="$PROJECT_DIR$/src/getweeklytemps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loopmod4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopmod4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,30 @@
     "last_opened_file_path": "C:/Users/jcbur/OneDrive/Desktop/Dev/CSC320"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.while_loop">
+  <component name="RunManager" selected="Application.getweeklytemps">
+    <configuration name="getweeklytemps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="getweeklytemps" />
+      <module name="CSC320" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="grocery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="grocery" />
+      <module name="CSC320" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loopmod4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loopmod4" />
+      <module name="CSC320" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mediavg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mediavg" />
       <module name="CSC320" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,6 +75,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.getweeklytemps" />
+        <item itemvalue="Application.mediavg" />
+        <item itemvalue="Application.loopmod4" />
         <item itemvalue="Application.while_loop" />
         <item itemvalue="Application.grocery" />
       </list>
@@ -81,7 +106,35 @@
       <option name="project" value="LOCAL" />
       <updated>1704322958376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial average and max&#10;Fixed maximum">
+      <created>1705278554924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705278554924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial average and max&#10;Fixed maximum&#10;Added bubble sort">
+      <created>1705280590794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705280590794</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial average and max&#10;Fixed maximum&#10;Added bubble sort">
+      <created>1705280682505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705280682505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;Added bubble sort">
+      <created>1705280704905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705280704905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +152,10 @@
     <MESSAGE value="Assignment for mod 3" />
     <MESSAGE value="Assignment for mod 3&#10;fixed error for non float" />
     <MESSAGE value="Initial average and max" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial average and max" />
+    <MESSAGE value="Initial average and max&#10;Fixed maximum" />
+    <MESSAGE value="Initial average and max&#10;Fixed maximum&#10;Added bubble sort&#10;Rename" />
+    <MESSAGE value="Initial average and max&#10;Fixed maximum&#10;Added bubble sort" />
+    <MESSAGE value="&#10;Added bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Added bubble sort" />
   </component>
 </project>
